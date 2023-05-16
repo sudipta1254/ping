@@ -1,14 +1,14 @@
 body {
    color: White;
    background: Black;
-   font-family: 'Bruney';
+   font-family: 'g';
 }
 .d2 {
    line-height: 1.8
 }
 @font-face {
     font-family: 'g';
-    src: url() format('opentype');
+    src: url('Faberge.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
 }
