@@ -14,7 +14,7 @@ body {
 }
 @font-face {
     font-family: 'g';
-    src: url('broken_drive.tff') format('ttf');
+    src: url('broken_drive.ttf') format('ttf');
     font-style: normal;
     font-weight: normal;
 }
