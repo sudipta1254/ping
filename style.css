@@ -11,4 +11,26 @@ body {
    line-height: 1.8
 
 }
+@font-face {
 
+    font-family: 'g';
+
+    src: url() format('opentype');
+
+    font-style: normal;
+
+    font-weight: normal;
+
+}
+
+@font-face {
+
+    font-family: 'Bruney';
+
+    src: url(Bruney.woff) format('woff');
+
+    font-style: normal;
+
+    font-weight: normal;
+
+}
