@@ -51,3 +51,20 @@ document.querySelector('.s10').innerHTML = cur.humidity+'%';
 document.querySelector('.s11').innerHTML = cur.cloud+'%';
 
 document.querySelector('.s12').innerHTML = cur.vis_km+' Km';
+  }); 
+function as() {
+document.querySelector('.s1').innerHTML = loc.name+', '+loc.region+', '+loc.country;
+document.querySelector('.s2').innerHTML = loc.localtime;
+document.querySelector('.s3').innerHTML = cur.last_updated;
+document.querySelector('.s4').innerHTML = cur.temp_c+'°C';
+document.querySelector('.s5').innerHTML = cur.condition.text;
+document.querySelector('.s6').innerHTML = cur.feelslike_c+'°C';
+document.querySelector('.s7').innerHTML = cur.wind_kph+' KMPH('+cur.wind_degree+'° -- '+cur.wind_dir+')';
+document.querySelector('.s8').innerHTML = cur.gust_kph+' KHPH';
+document.querySelector('.s9').innerHTML = cur.pressure_mb+' hPa';
+document.querySelector('.s10').innerHTML = cur.humidity+'%';
+document.querySelector('.s11').innerHTML = cur.cloud+'%';
+document.querySelector('.s12').innerHTML = cur.vis_km+' Km';
+document.querySelector('.s13').innerHTML = cur.uv;
+document.querySelector('.s14').innerHTML = cur.precip_mm+' mm';
+}
