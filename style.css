@@ -14,7 +14,7 @@ body {
 }
 @font-face {
     font-family: 'g';
-    src: url('Faberge.otf') format('opentype');
+    src: url('Final-frontier.woff') format('woff');
     font-style: normal;
     font-weight: normal;
 }
