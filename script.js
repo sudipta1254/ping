@@ -3,28 +3,18 @@ qb = '20.252346,85.802773'
 q = prompt('Enter location:', 'Bhubaneshwar')
 if (q == null)
   q = qb;
+
 fetch('https://api.weatherapi.com/v1/current.json?q='+q+'&key=df1745f8c6cc4466bf545635232304')
-
   .then(response => response.json())
-
   .then(data => {
-
     //console.log(data);
-
       loc = data.location;
-
-      cur =data.current
-
+      cur =data.current;
       as();
-
   })
-
   .catch(error => {
-
     console.error(error);
-
     // Handle errors
-
   }); 
 
 function as() {
