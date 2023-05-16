@@ -7,6 +7,11 @@ body {
    line-height: 1.8;
    /*font-size: 17px; */
 }
+.d3 {
+   width: 70px;
+   height: 70px;
+   margin: auto;
+}
 @font-face {
     font-family: 'g';
     src: url('Faberge.otf') format('opentype');
