@@ -1,9 +1,10 @@
 qb = '20.252346,85.802773'
 
 q = prompt('Enter location:', 'Bhubaneshwar')
-if (q == null)
-  q = qb;
+if (q =! null)
+  m();
 
+function m() {
 fetch('https://api.weatherapi.com/v1/current.json?q='+q+'&key=df1745f8c6cc4466bf545635232304')
   .then(response => response.json())
   .then(data => {
@@ -15,7 +16,8 @@ fetch('https://api.weatherapi.com/v1/current.json?q='+q+'&key=df1745f8c6cc4466bf
   .catch(error => {
     console.error(error);
     // Handle errors
-  }); 
+  });
+}
 
 function as() {
    document.querySelector('.s1').innerHTML = loc.name+', '+loc.region+', '+loc.country;
@@ -36,4 +38,9 @@ function as() {
    icon = cur.condition.icon.split('//')[1];
    d3 = document.querySelector('.d3');
    d3.style.background = 'url(http://'+icon+')';
+}
+
+function get() {
+   q = document.getElementById("txt").value;
+   m();
 }
