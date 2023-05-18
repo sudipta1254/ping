@@ -1,8 +1,8 @@
 qb = '20.252346,85.802773'
 
 q = prompt('Enter location:', 'Bhubaneshwar')
-if (q != null)
-  m();
+if (q == null)
+  q == qb;
 
 function m() {
 fetch('https://api.weatherapi.com/v1/current.json?q='+q+'&key=df1745f8c6cc4466bf545635232304')
@@ -44,3 +44,5 @@ function get() {
    q = document.getElementById("txt").value;
    m();
 }
+m();
+  
