@@ -5,7 +5,8 @@ body {
 }
 .d2 {
    line-height: 1.8;
-   font-size: 22px; 
+   font-size: 22px;
+   margin: 10px 5px;
 }
 .d3 {
    width: 60px;
