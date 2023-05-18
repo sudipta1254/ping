@@ -10,7 +10,7 @@ fetch('https://api.weatherapi.com/v1/current.json?q='+q+'&key=df1745f8c6cc4466bf
       as();
   })
   .catch(error => {
-    console.error(error);
+    alert(error);
     // Handle errors
   });
 }
