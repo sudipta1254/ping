@@ -12,6 +12,18 @@ body {
    height: 60px;
    margin: auto;
 }
+input {
+   color: White;
+   background: Black;
+   width: 180px;
+   height: 35px;
+   text-align: center;
+}
+button {
+   height: 30px;
+   margin-left: 10px;
+}
+
 @font-face {
     font-family: 'g';
     src: url('broken_drive.ttf') format('truetype');
