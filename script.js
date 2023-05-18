@@ -1,4 +1,4 @@
-qb = '20.252346,85.802773';
+q = '20.252346,85.802773';
 
 function m() {
 fetch('https://api.weatherapi.com/v1/current.json?q='+q+'&key=df1745f8c6cc4466bf545635232304')
