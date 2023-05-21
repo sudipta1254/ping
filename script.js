@@ -31,9 +31,9 @@ function as() {
    document.querySelector('.s13').innerHTML = cur.uv;
    document.querySelector('.s14').innerHTML = cur.precip_mm+' mm';
 
-   icon = cur.condition.icon.split('//')[1];
+   icon = cur.condition.icon;
    d3 = document.querySelector('.d3');
-   d3.style.background = 'url(http://'+icon+')';
+   d3.style.background = 'url(http:'+icon+')';
 }
 
 function get() {
@@ -47,7 +47,12 @@ function time() {
    s = s[0] + s[1];
    c = cur.last_updated.split(' ')[1].split(':');
    c = c[0] + c[1];
-   return +s - (+c);
-}
+   d = +s - (+c);
+   if (d == 0)
+      return 'Now';
+   else if (d == 1)
+      return d+' minute ago';
+   else
+      return d+' minutes ago';
 m();
   
