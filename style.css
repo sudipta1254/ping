@@ -1,10 +1,10 @@
 body {
    color: White;
    background: Black;
-   font-family: 'g';
+   font-family: 'Italiana';
 }
 .d2 {
-   line-height: 2;
+   line-height: 2.1;
    font-size: 22px;
    margin: 10px 5px;
 }
@@ -33,14 +33,14 @@ a {
 
 
 @font-face {
-    font-family: 'g';
-    src: url('broken_drive.ttf') format('truetype');
+    font-family: 'Italiana';
+    src: url('Italiana-Regular.woff') format(woff);
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: 'Bruney';
-    src: url(Bruney.woff) format('woff');
+    src: url(Bruney.woff) format(woff);
     font-style: normal;
     font-weight: normal;
 }
