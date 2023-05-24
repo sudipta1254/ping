@@ -34,6 +34,8 @@ function as() {
    icon = cur.condition.icon;
    d3 = document.querySelector('.d3');
    d3.style.background = 'url(http:'+icon+')';
+   if (screen.width <= 768)
+      d3.style.margin = '-10px auto 0';
 }
 
 function get() {
