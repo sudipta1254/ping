@@ -55,5 +55,14 @@ function time() {
    else
       return d+' minutes ago';
 }
+
+input = document.getElementById("txt");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.querySelector("button").click();
+  }
+});
+
 m();
   
