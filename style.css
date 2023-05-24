@@ -11,7 +11,7 @@ body {
 .d3 {
    width: 60px;
    height: 60px;
-   margin: auto;
+   margin: -480px auto 0;
 }
 input {
    color: White;
