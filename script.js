@@ -30,7 +30,6 @@ function as() {
    document.querySelector('.s12').innerHTML = cur.vis_km+' Km';
    document.querySelector('.s13').innerHTML = cur.uv;
    document.querySelector('.s14').innerHTML = cur.precip_mm+' mm';
-   document.querySelector('.s15').innerHTML = cur.is_day == '1' ? 'Yes' : 'No';
 
    icon = cur.condition.icon;
    d3 = document.querySelector('.d3');
