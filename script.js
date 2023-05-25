@@ -14,9 +14,10 @@ fetch('https://api.weatherapi.com/v1/current.json?q='+q+'&key=df1745f8c6cc4466bf
 }
 
 function as() {
+   time();
    document.querySelector('.s1').innerHTML = loc.name+', '+loc.region+', '+loc.country;
    document.querySelector('.s2').innerHTML = loc.localtime;
-   document.querySelector('.s3').innerHTML =  (time() < 0) ? curr.last_updated : time();
+   document.querySelector('.s3').innerHTML =  (d < 0) ? curr.last_updated : time();
    document.querySelector('.s4').innerHTML = cur.temp_c+'°C';
    document.querySelector('.s5').innerHTML = cur.condition.text;
    document.querySelector('.s6').innerHTML = cur.feelslike_c+'°C';
