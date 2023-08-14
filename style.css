@@ -20,6 +20,7 @@ input {
    height: 35px;
    text-align: center;
    border-radius: 14px;
+   accent-color: #F55050;
 }
 button {
    height: 30px;
